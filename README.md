@@ -1,4 +1,4 @@
-# vue-elm
+# 安装
 
 ## Project setup
 ```
@@ -10,15 +10,10 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# 技术栈
+## vue2 + vuex + vue-router + vue-cli4 + ES6/7 + axios + sass
 
-### Lints and fixes files
-```
-npm run lint
-```
+#目录结构
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
