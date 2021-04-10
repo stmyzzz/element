@@ -1,11 +1,11 @@
 # 安装
 
-## Project setup
+## 安装所需依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行
 ```
 npm run serve
 ```
