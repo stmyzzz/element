@@ -1,0 +1,44 @@
+$blue:#3190e8; /* theme */
+$bc: #e4e4e4; /* background-color */
+$fc:#fff; /* font-color */
+
+/* 背景图片 */
+@mixin bis($url){
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@mixin center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* 宽高 */
+@mixin wh($width,$height){
+  width: $width;
+  height: $height;
+}
+@mixin sc($size,$color){
+  font-size: $size;
+  color: $color;
+}
+@mixin ct{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin cl{
+  position: absolute;
+  left: 50%;
+  transform: translateX((-50%));
+}
+@mixin font($size, $line-height, $family: 'Microsoft YaHei') {  
+	font: #{$size}/#{$line-height} $family;
+}
+@mixin fj($type:space-between){
+  display: flex;
+  justify-content: $type;
+}
+
+
